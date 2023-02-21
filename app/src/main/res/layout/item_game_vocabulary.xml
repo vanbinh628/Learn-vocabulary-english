@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/padding_layout_vocabulary"
+    android:paddingRight="@dimen/padding_layout_vocabulary"
+    android:paddingBottom="@dimen/padding_bottom_layout_vocabulary"
+    android:weightSum="10">
+    <TextView
+        android:id="@+id/tv_english"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_text_view_vocabulary"/>
+    <EditText
+        android:id="@+id/ed_answer"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius_line"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/tv_vietnamese"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_text_view_vocabulary"/>
+
+</LinearLayout>

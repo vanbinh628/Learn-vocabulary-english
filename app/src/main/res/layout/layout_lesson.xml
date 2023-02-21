@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_silver">
+        <TextView
+            android:id="@+id/tv_content_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_lesson_vocabulary"
+            style="@style/text_style"/>
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_add_white"
+            android:text="@string/button_add"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="0dp">
+        </Button>
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesson vocabulary"
+            android:layout_below="@id/tv_content_name"
+            />
+    </RelativeLayout>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:paddingRight="3dp"
+    android:paddingLeft="5dp"
+    />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">syn</string>
+    <string name="button_save">Save</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_submit">Submit</string>
+    <string name="text_hind">Name</string>
+    <string name="text_content_match_game">Match vocabulary</string>
+    <string name="text_word">Word</string>
+    <string name="text_mean">Mean</string>
+    <string name="text_hint_quantity_word">Quantity Word</string>
+    <string name="button_change">Change</string>
+    <string name="text_content_main">Tiếng Anh Cho Bạn</string>
+    <string name="item_first">Vocabulary</string>
+    <string name="item_second">Game 1</string>
+    <string name="item_three">Game 2</string>
+    <string name="item_four">Review</string>
+    <string name="item_setting">Setting</string>
+    <string name="item_the_last">Review</string>
+    <string name="text_lesson_vocabulary">Lesson vocabulary</string>
+
+    <string name="text_count_list">Total: </string>
+    <string name="button_add">Add</string>
+    <string name="text_count_item_learn_lesson">count:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
